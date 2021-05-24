@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+html {
+    background-color: rgb(0, 20, 34);
+}
+
+body {
+    display: block;
+    margin: 0 auto;    
+}
+
+h1 {
+    color: aliceblue;
+    font-family: "Megrim", "sans-serif";
+    text-align: center;
+}
+
+#recordingstate {
+    color: red;
+}
+
+#videostream {
+    display: block;
+    background-color: rgb(14, 26, 36);
+    border-color: rgb(4, 29, 48);
+    border-width: 20px;
+
+    margin: 0 auto;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+button, p, a {
+    font-family: "Manrope", "sans-serif";
+}
+
+p, a {
+    text-align: center;
+}
+
+a {
+    margin: 0 auto; 
+}
